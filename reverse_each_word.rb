@@ -4,5 +4,5 @@ def reverse_each_word(statement)
   words.each do |word|
     reversed_words << word.reverse + " "
   end
-  return reversed_words.chomp
+  return reversed_words.chop
 end
